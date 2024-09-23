@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<project name="MyProject" default="build">
+  <target name="build">
+    <echo message="Building the project..." />
+  </target>
+</project> 
+
+<!DOCTYPE html>
+<html dir='LTR' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<b:include data='blog' name='all-head-content'/>
+<title><data:blog.pageTitle/></title>
+<!-- Created by Artisteer v4.3.0.60745 -->
+<meta content='initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width' name='viewport'/>
+
+<b:skin><![CDATA[
