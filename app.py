@@ -16,9 +16,9 @@ from linebot.models import MessageEvent, TextMessage, ImageMessage, TextSendMess
 
 app = FastAPI()
 
-line_id = os.getenv("LINE_BOT_BASIC_ID")
-line_bot_api = LineBotApi(os.getenv("LINE_CHANNEL_ACCESS_TOKEN"))
-handler = WebhookHandler(os.getenv("LINE_CHANNEL_SECRET"))
+line_id = os.getenv("Uc76114a2fa5dee736ec9409bec7a39e8")
+line_bot_api = LineBotApi(os.getenv("W/cIsDQpNsrAx7tZA4VEZTGeeRP0wRLHEzY2XUbBWwgdpYG+/GMlI18i6nrfMgGuDUFMjIb6U1DXgUWr3v+y1kujqE80zaT5aKfKcfNzF883vQpy822hSvYEziLeQUeNTPzYRNuMWfih/Mgyknv09AdB04t89/1O/w1cDnyilFU="))
+handler = WebhookHandler(os.getenv("4a85cf07832de33f9c46ed6f76303295"))
 threshold = float(os.getenv("CLASSIFICATION_THRESHOLD"))
 
 classification_model = tf.keras.models.load_model("./models/bank_classification_model.h5")
